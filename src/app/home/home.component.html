@@ -1,0 +1,8 @@
+<h2>StopWatch using angular7</h2>
+<h1>{{countDown}}</h1>
+
+<div class="center">
+  <button class="btn btn-success" [disabled]="disable_button" (click)='start()'>Start Timer</button>&nbsp;
+<button class="btn btn-info" [disabled]="!disable_button" (click)='pause()'>Pause</button>&nbsp;
+<button class="btn btn-warning" (click)='clear()'>Clear</button>
+</div>
